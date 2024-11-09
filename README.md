@@ -55,4 +55,35 @@ This contract is written in **Solidity 0.8.23** and imports OpenZeppelin’s ERC
   - Burning (removeLike): Verify that any user can call removeLike to burn tokens.
   - Transferring (shareContent): Test that any user can call shareContent to transfer tokens to another address.
 
+## Executing the Program
+
+To run this program, you can use Remix, an online Solidity IDE. Follow these steps:
+
+1. **Go to the Remix website**: [Remix IDE](https://remix.ethereum.org/).
+
+2. **Create a New File**:
+   - Click on the "+" icon in the left-hand sidebar.
+   - Name the file `MyToken.sol`.
+
+3. **Copy and Paste the Code**:
+   - Copy the provided code and paste it into the newly created file.
+
+4. **Compile the Code**:
+   - Click on the "Solidity Compiler" tab in the left-hand sidebar.
+   - Ensure that the "Compiler" option is set to version 0.8.18 (or another compatible version).
+   - Click on the "Compile MyToken.sol" button.
+
+5. **Deploy the Contract**:
+   - Click on the "Deploy & Run Transactions" tab in the left-hand sidebar.
+   - Click on the "Deploy" button.
+
+6. **Interact with the Deployed Contract**:
+   - After deploying, you will see the deployed contract instance appear in the "Deployed Contracts" section.
+   - Expand the deployed contract instance to view its functions.
+
+## Author
+Neal Tracy D. Jestingor | 202111095@fit.edu.ph
+
+## License
+This project is licensed under the MIT License.
 
